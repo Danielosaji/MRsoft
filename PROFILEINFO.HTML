@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="PROFILEINFO.CSS">
+</head>
+<body>
+    <div class="profile">
+        <div class="HEADER"> 
+            <h1>Patient Information</h1>
+            <a href="DASHBOARD.HTML">
+                <img src="HMMM/material-symbols--dashboard.svg" alt="User" class="USER" />
+            </a>
+        </div>
+        <form>
+            <div class="PROFILE">
+                <h2>Add Patient Information</h2>
+                <span class="NAME">
+                    <p>Full Name:</p>
+                    <input type="text" placeholder="Enter Full Name">
+                </span>
+                <div class="DETAILS">
+                    <span class="DOB">
+                        <p>Date of Birth:</p>
+                        <input type="date" placeholder="Enter Date of Birth">
+                        <!-- <img src="HMMM/uim--calender.svg" alt="Calendar"> -->
+                    </span>
+                    <span class="PHONE">
+                            <p>Phone Number:</p>
+                            <input type="tel" placeholder="Phone Number">
+                    </span>
+                    <span class="EMAIL">
+                        <p>Email Address:</p>
+                        <input type="email" placeholder="email@mail.com">
+                    </span>
+                </div>
+                <div class="BMI">
+                    <span class="HEIGHT">
+                        <p>Height:</p>
+                        <input type="text" placeholder="Height">
+                        <select name="height" id="height">
+                            <option value="Cm">Cm</option>
+                            <option value="In">In</option>
+                        </select>
+                    </span>
+                    <span class="WEIGHT">
+                        <p>Weight:</p>
+                        <input type="text" placeholder="Weight">
+                        <select name="weight" id="weight">
+                            <option value="kg">kg</option>
+                            <option value="lbs">lbs</option>
+                        </select>
+                    </span>
+                </div>
+                <span class="GENDER">
+                    <p>Gender:</p>
+                    <!-- <select name="Gender" id="gender">
+                        <option type="radio" value="male">Male</option>
+                        <option type="radio" value="female">Female</option>
+                        <option type="radio" value="others">Other</option>
+                    </select> -->
+                    <input type="radio" id ="male" name= "gender" value="male">Male 
+                    <br>
+                    <input type="radio" id ="female" name= "gender" value="female">Female
+                    <br>
+                    <input type="radio" id ="other" name= "gender" value="others">Other
+                </span>
+                <div class="NOKDETAILS">
+                    <span class="NOK">
+                        <p> Next of Kin:</p>
+                        <input type="text" placeholder="Next of Kin">
+                    </span>
+                    <span class="NOKPHONE">
+                        <p>Phone Number(Next of Kin):</p>
+                        <input type="text" placeholder="Phone Number">
+                    </span>
+                </div>
+                <span class="RELATIONSHIP">
+                    <p>Relationship:</p>
+                    <input type="radio" id="relationship" name="relationship" value="Wife">Wife
+                    <input type="radio" id="relationship" name="relationship" value="Husband">Husband
+                    <input type="radio" id="relationship" name="relationship" value="Other">Other
+                    <input type="text" placeholder="Relationship">
+                </span>
+                    <span class="BLOODGROUP">
+                        <p>Blood Group:</p>
+                        <select id="Blood Group" name="Blood Group">
+                        <option value="A" selected >A</option>
+                        <option value="A-">A-</option>
+                        <option value="A+">A</option>
+                        <option value="O">O</option>
+                        <option value="O-">O-</option>
+                        <option value="O+">O+</option>
+                        <option value="B">B</option>
+                        <option value="B-">B-</option>
+                        <option value="B+">B+</option>
+                        <option value="AB">AB</option>
+                        <option value="AB-">AB-</option>
+                        <option value="AB+">AB+</option>
+                        </select>
+                    </span>
+                    <div class="HISTORY">
+                        <span class="AILMENTS">
+                            <p>Known Ailments:</p>
+                            <textarea name="AILMENTS" id="AILMENTS" cols="30" rows="2" placeholder="Known Ailments"></textarea>
+                        </span>
+                        <span class="ALLERGIES">
+                            <p>Known Allergies:</p>
+                            <textarea name="ALLERGIES" id="ALLERGIES" cols="30" rows="2" placeholder="Known Allergies"></textarea>
+                        </span>
+                        <span class="MEDICATIONS">
+                            <p>Known Medications:</p>
+                            <textarea name="MEDICATIONS" id="MEDICATIONS" cols="30" rows="2" placeholder="Known Medications"></textarea>
+                        </span>
+                    </div>
+                <span class="ADDRESS">
+                    <p>Address:</p>
+                        <textarea name="ADDRESS" id="ADDRESS" cols="30" placeholder="Current Address"></textarea>
+                        
+                </span>
+            <div class="BUTTONS">
+                <span class="PICTURE">
+                    <p>Upload Picture:</p>
+                    <input type ="file" id ="myfile1" name= "fullname" accept="image/png, image/jpeg, image/jpg,"/>
+                </span>
+                <button type="submit" class="SUBMIT">Submit</button>
+                <button type="reset" class="RESET">Reset</button>
+            </div>
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>

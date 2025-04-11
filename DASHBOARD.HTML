@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="DASHBOARD.CSS">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="HEADER"> 
+            <h1> Dashboard</h1>
+            <a href="PROFILE.HTML">
+                <img src="HMMM/pajamas--profile.svg" alt="User" class="USER" />
+            </a>
+        </div>
+        <div class="menu">
+            <div class="buttons btn">
+                <a href="Medical Record.HTML">
+                    <button class="MD">
+                        <img src="HMMM/MEDICAL (1).png" alt="Medical Record" />
+                        Medical Record</button>
+                </a>
+                <a href="PAYMENT&INSURANCE.HTML">
+                    <button class="PI">
+                        <img src="HMMM/MEDICAL (4).png" alt="Payment Insurance">
+                        Payment & Insurance</button>
+                </a>
+            </div>
+            <div  class="Beds">
+                <div class="buttons label label1">
+                    <img class="img" src="HMMM/MEDICAL (2).png" alt="Appointments" />
+                        <p>300<br>
+                        <b>In Patient Beds</b></p>
+                </div>
+                <div class=" buttons label label2">   
+                    <img class="img" src="HMMM/MEDICAL (3).png" alt="Appointments" />
+                        <p>58 <br>
+                        <b>Rooms Available</b></p>
+                </div>
+            </div>
+        </div>    
+        
+        <div class="History">
+            <h2>Past Visit History</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Doctor</th>
+                        <th>Treatment</th>
+                        <th>Charges</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12 Jan 2022</td>
+                        <td>Dr. Jacob Ryan</td>
+                        <td class="treatment"><span class="tde">checkup</span></td>
+                        <td>$145</td>
+                        <td><button>✏️</button> <button>🗑️</button></td>
+                    </tr>
+                
+                    <tr>
+                        <td>12 Jan 2022</td>
+                        <td>Dr. Jacob Ryan</td>
+                        <td class="treatment"><span class="tde">X-Ray</span></td>
+                        <td>$52</td>
+                        <td><button>✏️</button> <button>🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td>12 Jan 2022</td>
+                        <td>Dr. Jacob Ryan</td>
+                        <td class="treatment"><span class="tde">Bloodtest</span></td>
+                        <td>$52</td>
+                        <td><button>✏️</button> <button>🗑️</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="appointments">
+            <h2>Booked Appointments</h2>
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Patient Name</th>
+                    <th>Assigned Doctor</th>
+                    <th>Date</th>
+                    <th>Diseases</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>Ramesh Kumar</td>
+                    <td>Dr. Jacob Ryan</td>
+                    <td>12 Jan 2022</td>
+                    <td class="Disease"><span class="tde">Fever</span></td>
+                    <td><button>✏️</button> <button>🗑️</button></td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Ramesh Kumar</td>
+                    <td>Dr. Jacob Ryan</td>
+                    <td>12 Jan 2022</td>
+                    <td class="Disease"><span class="tde">Cholera</span></td>
+                    <td><button>✏️</button> <button>🗑️</button></td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Ramesh Kumar</td>
+                    <td>Dr. Jacob Ryan</td>
+                    <td>12 Jan 2022</td>
+                    <td class="Disease"><span class="tde">Fever</span></td>
+                    <td><button>✏️</button> <button>🗑️</button></td>
+                </tr>
+            </table>
+        </div>
+        <p>For inquiries & appointments call:<span class="contact">+2349132476944</span></p>
+    </div>
+</body>
+</html>

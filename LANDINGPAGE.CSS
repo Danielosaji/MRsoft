@@ -1,0 +1,76 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+        }
+        h2{
+            color: blue;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .text-section {
+            max-width: 50%;
+            min-width: 100px;
+        }
+        .text-section h1 {
+            font-size: 32px;
+            color: #000;
+        }
+        .text-section h1 span {
+            color: blue;
+            font-weight: bold;
+        }
+        .text-section p {
+            font-size: 16px;
+            color: gray;
+            margin: 10px 0;
+        }
+        .text-section a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .image-section {
+            position: relative;
+        }
+        .image-section img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .buttons button {
+            margin: 5px;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 18px;
+        }
+        .buttons .sign-in {
+            background-color: blue;
+            color: white;
+        }
+        .buttons .sign-up {
+            border: 1px solid blue;
+            color: blue;
+            background-color: white;
+        }
